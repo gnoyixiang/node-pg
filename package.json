@@ -1,0 +1,22 @@
+{
+  "name": "node-pg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node src/clean.js",
+    "dev": "node src/app.js < io/in.txt > io/out.txt && npm test",
+    "start": "npm run build && node index.js < io/in.txt > io/out.txt && npm test",
+    "test": "node src/check.js"
+  },
+  "keywords": [
+    "js",
+    "google",
+    "kick start",
+    "node",
+    "nodejs",
+    "playground"
+  ],
+  "author": "gnoyixiang",
+  "license": "ISC"
+}
